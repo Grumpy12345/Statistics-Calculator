@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: Nunito, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 67vh;
+    width: 67vh;
+    padding: 10vh;
+    border-radius: 25%;
+    background-color: white;
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 0.5rem 2rem rgba(0,0,0,0.2);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background: rgba(177, 177, 177, 0.5);
+    transform: scale(1.05);
+}
+
+.chosen {
+    background: rgba(208, 208, 208, 0.2);
+}
+
+#input-values {
+  font-family: Nunito, sans-serif;
+  font-size: 1.25rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease;
+}
+
+#input-values:hover {
+    cursor: text;
+    transform: scale(1.05);
+}
+
+#submit {
+  font-family: Nunito, sans-serif;
+  font-size: 1.25rem;
+  background: rgba(206, 206, 206, 0.5);
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 1.2rem;
+}
